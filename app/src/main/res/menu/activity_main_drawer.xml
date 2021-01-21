@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/inicio"
+            android:icon="@drawable/home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/guia_nutricion"
+            android:icon="@drawable/guian"
+            android:title="@string/menu_guia" />
+        <item
+            android:id="@+id/menu"
+            android:icon="@drawable/recetario"
+            android:title="@string/menu_recetario" />
+        <item
+            android:id="@+id/tips"
+            android:icon="@drawable/tips"
+            android:title="@string/menu_tips" />
+        <item
+            android:id="@+id/piramide"
+            android:icon="@drawable/piramide1"
+            android:title="@string/menu_piramide" />
+
+        <item
+            android:id="@+id/tablas"
+            android:icon="@drawable/tablas"
+            android:title="@string/menu_tablas" />
+        <item
+            android:id="@+id/extras"
+            android:icon="@drawable/extras"
+            android:title="@string/menu_extras" />
+        <item
+            android:id="@+id/articulo"
+            android:icon="@drawable/articulo"
+            android:title="@string/menu_articulo" />
+
+    </group>
+</menu>

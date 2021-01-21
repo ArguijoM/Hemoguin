@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#f7f3e9"
+        tools:context=".ui.ListaTips.Tip2_Sodio">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="194dp"
+            android:background="@drawable/sodio"
+            android:gravity="center">
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/btn_sodio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="@dimen/tamano_text"
+                android:text="@string/sodio1"
+                android:textColor="#32845d"
+                android:layout_gravity="center_vertical"
+                android:padding="@dimen/padding"/>
+
+        </LinearLayout>
+
+
+        <!--///////////////Ingredientes///////////-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_sodio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/tamano_text_ip"
+                android:text="@string/sodio2"
+                android:textColor="#000"
+                android:gravity="center|start"
+                android:paddingLeft="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_horizontal"
+                android:padding="@dimen/padding"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_sodio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/tamano_text_ip"
+                android:text="@string/sodio3"
+                android:textColor="#000"
+                android:gravity="center|start"
+                android:paddingLeft="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_horizontal"
+                android:padding="@dimen/padding"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

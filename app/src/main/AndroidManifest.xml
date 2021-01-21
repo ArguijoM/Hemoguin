@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hemogui_app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Piramide_caras"></activity>
+        <activity android:name=".ui.extras.Extra_generales" />
+        <activity android:name=".ui.extras.Extra_higiene_personal" />
+        <activity android:name=".ui.extras.Extra_como_banarse" />
+        <activity android:name=".ui.extras.Extra_cuidado_personal" />
+        <activity android:name=".ui.extras.Extra_signos_alarma" />
+        <activity android:name=".ui.extras.Extra_cuidados_vascular" />
+        <activity android:name=".ui.Apoyos.Apoyo8_alimentos_origen_animal" />
+        <activity android:name=".ui.Apoyos.Apoyo7_leguminosas" />
+        <activity android:name=".ui.Apoyos.Apoyo6_azucares" />
+        <activity android:name=".ui.Apoyos.Apoyo5_aceites_grasas" />
+        <activity android:name=".Receta14_arroz_leche" />
+        <activity android:name=".Receta13_albondigas_salsa" />
+        <activity android:name=".Receta12_hamburguesa_pollo" />
+        <activity android:name=".Receta11_filete_pollo" />
+        <activity android:name=".Receta10_HuevRellAtu" />
+        <activity android:name=".Receta9_HuevoChamp" />
+        <activity android:name=".Receta8_ChamAjo" />
+        <activity android:name=".Receta7_FiletRes" />
+        <activity android:name=".Receta6_PolloHorno" />
+        <activity android:name=".Receta5_PurePapa" />
+        <activity android:name=".Receta4_FiletPesca" />
+        <activity android:name=".Receta3_CroqAtun" />
+        <activity android:name=".Receta2_EnslArroz" />
+        <activity android:name=".Receta1_LentArr" />
+        <activity android:name=".Hemodialisis" />
+        <activity android:name=".Anemia" />
+        <activity android:name=".Alimentacion" />
+        <activity android:name=".Tecnicas_cocina" />
+        <activity android:name=".Peso_ingesta" />
+        <activity android:name=".Suplementos" />
+        <activity android:name=".ui.ListaTips.Tip1_Potasio" />
+        <activity android:name=".ui.ListaTips.Tip2_Sodio" />
+        <activity android:name=".ui.ListaTips.Tip3_Calcio" />
+        <activity android:name=".ui.ListaTips.Tip4_Fosforo" />
+        <activity android:name=".ui.ListaTips.Tip5_Azucar" />
+        <activity android:name=".ui.ListaTips.Tip6_Urea" />
+        <activity android:name=".ui.ListaTips.Tip7_Hinchazon" />
+        <activity android:name=".ui.Apoyos.Apoyo1_vegetales" />
+        <activity android:name=".ui.Apoyos.Apoyo2_semillas" />
+        <activity android:name=".ui.Apoyos.Apoyo3_lacteos" />
+        <activity android:name=".ui.Apoyos.Apoyo4_cereales" />
+        <activity android:name=".ui.Apoyos.Apoyo9_clasificacion" />
+        <activity
+            android:name=".menu"
+            android:label="@string/title_activity_menu"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

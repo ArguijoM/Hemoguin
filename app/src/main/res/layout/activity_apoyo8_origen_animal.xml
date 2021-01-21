@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#f7f3e9"
+        tools:context=".ui.Apoyos.Apoyo8_origen_animals">
+
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:background="@drawable/alimentos_ani"
+           android:layout_gravity="center">
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/btn_potasio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="@dimen/tamano_text"
+                android:text="ALIMENTOS DE ORIGEN ANIMAL"
+                android:background="#fcfc04"
+                android:textColor="#000"
+                android:layout_gravity="center_vertical"
+                android:padding="@dimen/padding"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:background="@drawable/tabla1_origen_animal"
+            android:gravity="center"></LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

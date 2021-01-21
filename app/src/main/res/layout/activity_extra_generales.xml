@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:background="@color/fondo2"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/fondo"
+        tools:context=".ui.extras.Extra_generales"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:justificationMode="inter_word"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:background="@color/fondo"
+                android:text="@string/generales"/>
+        </LinearLayout>
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/fondo2" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"/>
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="16dp"
+                android:gravity="left"
+                android:justificationMode="inter_word"
+                android:textColor="@color/colorPrimaryDark"
+                android:background="@color/fondo"
+                android:text="@string/generales_parrafo01"/>
+        </LinearLayout>
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/fondo2" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/generales01" />
+        </LinearLayout>
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/fondo2" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"/>
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="16dp"
+                android:gravity="left"
+                android:justificationMode="inter_word"
+                android:textColor="@color/colorPrimaryDark"
+                android:background="@color/fondo"
+                android:text="@string/generales_parrafo02"/>
+        </LinearLayout>
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/fondo2" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/generales02" />
+        </LinearLayout>
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/fondo2" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"/>
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="16dp"
+                android:gravity="left"
+                android:justificationMode="inter_word"
+                android:textColor="@color/colorPrimaryDark"
+                android:background="@color/fondo"
+                android:text="@string/generales_parrafo03"/>
+        </LinearLayout>
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/fondo2" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/generales03" />
+        </LinearLayout>
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/fondo2" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"/>
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="16dp"
+                android:gravity="left"
+                android:justificationMode="inter_word"
+                android:textColor="@color/colorPrimaryDark"
+                android:background="@color/fondo"
+                android:text="@string/generales_parrafo04"/>
+        </LinearLayout>
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/fondo2" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/generales04" />
+        </LinearLayout>
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/fondo2" />
+    </LinearLayout>
+</ScrollView>

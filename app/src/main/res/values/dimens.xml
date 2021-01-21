@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding">12dp</dimen>
+    <dimen name="tamano_texto">30sp</dimen>
+    <dimen name="login_mensj">20sp</dimen>
+    <dimen name="login_text">25sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="padding_display">16sp</dimen>
+    <dimen name="tamano_texto_boton">12sp</dimen>
+
+    <!--Tamaños para las recetas-->
+    <dimen name="tamano_text">40sp</dimen>
+    <dimen name="tamano_text_ip">15sp</dimen>
+</resources>

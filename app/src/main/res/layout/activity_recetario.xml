@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#f7f3e9"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            android:contentDescription="@string/nav_header_desc"
+            android:paddingTop="@dimen/nav_header_vertical_spacing"
+            app:srcCompat="@drawable/chef" />
+
+
+
+        <TextView
+            android:id="@+id/tv_recetario"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:textSize="@dimen/tamano_texto"
+            android:text="@string/menu_recetario"
+            android:gravity="center|start"
+            android:layout_gravity="center_vertical"
+            android:padding="@dimen/padding">
+
+        </TextView>
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/progressBar4"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/side_nav_bar" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <ImageView
+        android:id="@+id/lentejas_arroz"
+        android:layout_width="0dp"
+        android:layout_gravity="center_vertical"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:padding="@dimen/padding"
+        android:src="@drawable/lentejas_arroz" />
+        <ImageView
+            android:id="@+id/pollo_horno"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:padding="@dimen/padding"
+            android:src="@drawable/pollo_horno" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <Button
+            android:id="@+id/btn_lentejasArroz"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Lentejas con arroz"
+            android:textSize="@dimen/tamano_texto_boton" />
+
+        <Button
+            android:id="@+id/btn_polloHorno"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Pollo al horno"
+            android:textColor="#2196F3"
+            android:textSize="@dimen/tamano_texto_boton" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <ImageView
+            android:id="@+id/ensalada_arroz"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:padding="@dimen/padding"
+            android:src="@drawable/ensalada_arroz" />
+        <ImageView
+            android:id="@+id/filete_res"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:padding="@dimen/padding"
+            android:src="@drawable/fielte_res" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <Button
+            android:id="@+id/btn_ensalArroz"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Ensalada de arroz"
+            android:textSize="@dimen/tamano_texto_boton" />
+
+        <Button
+            android:id="@+id/btn_filetRes"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Filete de res"
+            android:textColor="#2196F3"
+            android:textSize="@dimen/tamano_texto_boton" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <ImageView
+            android:id="@+id/croquetas_atun"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:padding="@dimen/padding"
+            android:src="@drawable/croquetas_atun" />
+
+        <ImageView
+            android:id="@+id/champiñones_ajo"
+            android:layout_width="0dp"
+            android:layout_height="109dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:padding="@dimen/padding"
+            android:src="@drawable/champinones_ajo" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <Button
+            android:id="@+id/btn_croqAtun"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Croquetas de atún"
+            android:textSize="@dimen/tamano_texto_boton" />
+
+        <Button
+            android:id="@+id/btn_champAjo"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Champiñones al ajo"
+            android:textColor="#2196F3"
+            android:textSize="@dimen/tamano_texto_boton" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <ImageView
+            android:id="@+id/filete_pescado"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:padding="@dimen/padding"
+            android:src="@drawable/filete_pescado" />
+        <ImageView
+            android:id="@+id/huevo_cham"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:padding="@dimen/padding"
+            android:src="@drawable/huevo_champ" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <Button
+            android:id="@+id/btn_filetPesc"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Filete de pescado"
+            android:textSize="@dimen/tamano_texto_boton" />
+
+        <Button
+            android:id="@+id/btn_huevoChamp"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Huevo con champiñones"
+            android:textColor="#2196F3"
+            android:textSize="@dimen/tamano_texto_boton" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <ImageView
+            android:id="@+id/pure_papa"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:padding="@dimen/padding"
+            android:src="@drawable/pure_papa" />
+
+        <ImageView
+            android:id="@+id/huevo_atun"
+            android:layout_width="0dp"
+            android:layout_height="106dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:padding="@dimen/padding"
+            android:src="@drawable/huevo_atun" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+
+        <Button
+            android:id="@+id/btn_purePapa"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Puré de papa"
+            android:textSize="@dimen/tamano_texto_boton" />
+
+        <Button
+            android:id="@+id/btn_hevoRellAtun"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Huevos rellenos de atún"
+            android:textColor="#2196F3"
+            android:textSize="@dimen/tamano_texto_boton" />
+
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+
+            <ImageView
+                android:id="@+id/filete_pollo"
+                android:layout_width="0dp"
+                android:layout_gravity="center_vertical"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:padding="@dimen/padding"
+                android:src="@drawable/filete_pollo" />
+
+            <ImageView
+                android:id="@+id/hamburguesa_pollo"
+                android:layout_width="0dp"
+                android:layout_height="106dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:padding="@dimen/padding"
+                android:src="@drawable/hamburguesa_pollo" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+
+
+            <Button
+                android:id="@+id/btn_filete_pollo"
+                android:layout_width="0dp"
+                android:layout_gravity="center_vertical"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="filete de pollo"
+                android:textSize="@dimen/tamano_texto_boton"/>
+
+
+            <Button
+                android:id="@+id/btn_hamburguesa_pollo"
+                android:layout_width="0dp"
+                android:layout_gravity="center_vertical"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="Hamburguesa de pollo"
+                android:textColor="#2196F3"
+                android:textSize="@dimen/tamano_texto_boton" />
+    </LinearLayout>
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <ImageView
+            android:id="@+id/albondigas_salsa"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:padding="@dimen/padding"
+            android:src="@drawable/albondigas_salsa" />
+
+        <ImageView
+            android:id="@+id/arroz_leche"
+            android:layout_width="0dp"
+            android:layout_height="106dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:padding="@dimen/padding"
+            android:src="@drawable/arroz_leche" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+
+        <Button
+            android:id="@+id/btn_albondigas_salsa"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Albondigas en salsa"
+            android:textSize="@dimen/tamano_texto_boton"/>
+
+
+        <Button
+            android:id="@+id/btn_arroz_leche"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Arroz con leche"
+            android:textColor="#2196F3"
+            android:textSize="@dimen/tamano_texto_boton" />
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

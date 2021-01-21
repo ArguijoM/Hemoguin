@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/inicio">
+
+    <fragment
+        android:id="@+id/inicio"
+        android:name="com.example.hemogui_app.ui.inicio.InicioFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/guia_nutricion"
+        android:name="com.example.hemogui_app.ui.guia_nutricion.GuiaFragment"
+        android:label="@string/menu_guia"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/menu"
+        android:name="com.example.hemogui_app.ui.recetario.RecetarioFragment"
+        android:label="@string/menu_recetario"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/tips"
+        android:name="com.example.hemogui_app.ui.tips.TipsFragment"
+        android:label="@string/menu_tips"
+        tools:layout="@layout/fragment_tips" />
+    <fragment
+        android:id="@+id/tablas"
+        android:name="com.example.hemogui_app.ui.tablas.TablasFragment"
+        android:label="@string/menu_tablas"
+        tools:layout="@layout/fragment_tablas" />
+    <fragment
+        android:id="@+id/extras"
+        android:name="com.example.hemogui_app.ui.extras.ExtrasFragment"
+        android:label="@string/menu_extras"
+        tools:layout="@layout/fragment_extras" />
+    <fragment
+        android:id="@+id/articulo"
+        android:name="com.example.hemogui_app.ui.articulo.ArticuloFragment"
+        android:label="@string/menu_articulo"
+        tools:layout="@layout/fragment_articulo" />
+    <fragment
+        android:id="@+id/piramide"
+        android:name="com.example.hemogui_app.ui.piramide.Fragment_Piramide"
+        android:label="Pirámide Nefralia"
+        tools:layout="@layout/fragment_piramide" />
+</navigation>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#f7f3e9"
+        tools:context=".hemodialisis">
+
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="194dp"
+            android:background="@drawable/hemo_1"
+            android:gravity="center">
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_recetario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="@dimen/tamano_text"
+                android:text="@string/hemodialisis_1"
+                android:fontFamily="@font/titulo_recetas"
+                android:textColor="#000"
+                android:layout_gravity="center_vertical"
+                android:padding="@dimen/padding"/>
+
+        </LinearLayout>
+
+
+        <!--///////////////Ingredientes///////////-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_ingredientes1"
+                android:layout_width="wrap_content"
+                android:justificationMode="inter_word"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/tamano_text_ip"
+                android:text="@string/hemodialisis_2"
+                android:textColor="#000"
+                android:gravity="center|start"
+                android:paddingLeft="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_horizontal"
+                android:padding="@dimen/padding"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_ingredientes2"
+                android:layout_width="wrap_content"
+                android:justificationMode="inter_word"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/tamano_text_ip"
+                android:text="@string/hemodialisis_3"
+                android:textColor="#000"
+                android:gravity="center|start"
+                android:paddingLeft="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_horizontal"
+                android:padding="@dimen/padding"/>
+
+        </LinearLayout>
+
+
+        <!---/////////////////Preparacion//////////////////-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageViewPre"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/hemo_2"
+                />
+
+
+        </LinearLayout>
+        //imagen3
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageViewPre2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/hemo_3"
+                />
+        </LinearLayout>
+        //texto4
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_ingredientes3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/tamano_text_ip"
+                android:text="@string/hemodialisis_4"
+                android:textColor="#000"
+                android:gravity="center|start"
+                android:paddingLeft="50dp"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:layout_gravity="center_horizontal"
+                android:padding="@dimen/padding"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/hemo_4"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/hemo_4"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/hemo_5"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/hemo_5"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

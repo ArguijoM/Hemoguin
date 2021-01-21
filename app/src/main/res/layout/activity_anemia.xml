@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#f7f3e9"
+        tools:context=".anemia">
+
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="194dp"
+            android:background="@drawable/anemia1"
+            android:gravity="center">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:textSize="@dimen/tamano_text"
+                android:text="@string/Ane1"
+                android:fontFamily="@font/titulo_recetas"
+                android:textColor="#000"
+                android:layout_gravity="center_vertical"
+                android:padding="@dimen/padding"/>
+
+        </LinearLayout>
+
+
+        <!--///////////////Ingredientes///////////-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_ingredientes1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:justificationMode="inter_word"
+                android:textSize="@dimen/tamano_text_ip"
+                android:text="@string/ane2"
+                android:textColor="#000"
+                android:gravity="center|start"
+                android:paddingLeft="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_horizontal"
+                android:padding="@dimen/padding"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_ingredientes2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:layout_weight="1"
+                android:textSize="18dp"
+                android:text="@string/ane3"
+                android:textColor="#000"
+                android:gravity="center|start"
+                android:paddingLeft="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_horizontal"
+                android:padding="@dimen/padding"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/tamano_text_ip"
+                android:text="@string/ane4"
+                android:textColor="#000"
+                android:justificationMode="inter_word"
+                android:gravity="center|start"
+                android:paddingLeft="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_horizontal"
+                android:padding="@dimen/padding"/>
+
+        </LinearLayout>
+
+        <!---/////////////////Preparacion//////////////////-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageViewPre"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/anemia2"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_text5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="18dp"
+                android:justificationMode="inter_word"
+                android:text="@string/ane5"
+                android:textColor="#000"
+                android:gravity="center|start"
+                android:paddingLeft="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_horizontal"
+                android:padding="@dimen/padding"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_text6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/tamano_text_ip"
+                android:justificationMode="inter_word"
+                android:text="@string/ane6"
+                android:textColor="#000"
+                android:gravity="center|start"
+                android:paddingLeft="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_horizontal"
+                android:padding="@dimen/padding"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/anemia5"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_text7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:layout_weight="1"
+                android:textSize="18dp"
+                android:text="@string/ane7"
+                android:textColor="#000"
+                android:gravity="center|start"
+                android:paddingLeft="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_horizontal"
+                android:padding="@dimen/padding"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/anemia3"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_text8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/tamano_text_ip"
+                android:justificationMode="inter_word"
+                android:text="@string/ane8"
+                android:textColor="#000"
+                android:gravity="center|start"
+                android:paddingLeft="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_horizontal"
+                android:padding="@dimen/padding"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/image6"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/anemia4"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_text9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/tamano_text_ip"
+                android:justificationMode="inter_word"
+                android:text="@string/ane9"
+                android:textColor="#000"
+                android:gravity="center|start"
+                android:paddingLeft="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_horizontal"
+                android:padding="@dimen/padding"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/image7"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/anemia6"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

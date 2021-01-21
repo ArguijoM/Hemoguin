@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f7f3e9"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            android:contentDescription="@string/nav_header_desc"
+            android:paddingTop="@dimen/nav_header_vertical_spacing"
+            app:srcCompat="@drawable/tips3" />
+
+
+
+        <TextView
+            android:id="@+id/tv_tips"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:textSize="@dimen/tamano_texto"
+            android:text="@string/menu_tips"
+            android:gravity="center|start"
+            android:layout_gravity="center_vertical"
+            android:padding="@dimen/padding">
+
+        </TextView>
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/progressBar4"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/side_nav_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <ImageView
+            android:id="@+id/btn_pot"
+            android:layout_width="0dp"
+            android:layout_height="123dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:padding="@dimen/padding"
+            android:src="@drawable/otasio" />
+
+        <ImageView
+            android:id="@+id/sod"
+            android:layout_width="0dp"
+            android:layout_height="123dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:padding="@dimen/padding"
+            android:src="@drawable/sodio" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btn_potasio"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="Potasio "
+            android:textSize="@dimen/tamano_texto_boton" />
+
+        <Button
+            android:id="@+id/btn_sodio"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="Sodio"
+            android:textColor="#2196F3"
+            android:textSize="@dimen/tamano_texto_boton" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <ImageView
+            android:id="@+id/cal"
+            android:layout_width="0dp"
+            android:layout_height="123dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:padding="@dimen/padding"
+            android:src="@drawable/calcio" />
+
+        <ImageView
+            android:id="@+id/fos"
+            android:layout_width="0dp"
+            android:layout_height="123dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:padding="@dimen/padding"
+            android:src="@drawable/fosforo" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <Button
+            android:id="@+id/btn_calcio"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Calcio"
+            android:textSize="@dimen/tamano_texto_boton" />
+
+        <Button
+            android:id="@+id/btn_fosforo"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Fósforo alto"
+            android:textColor="#2196F3"
+            android:textSize="@dimen/tamano_texto_boton" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <ImageView
+            android:id="@+id/azu"
+            android:layout_width="0dp"
+            android:layout_height="123dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:padding="@dimen/padding"
+            android:src="@drawable/azucar" />
+
+        <ImageView
+            android:id="@+id/urea"
+            android:layout_width="0dp"
+            android:layout_height="123dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:padding="@dimen/padding"
+            android:src="@drawable/urea" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <Button
+            android:id="@+id/btn_azucar"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Azúcar"
+            android:textSize="@dimen/tamano_texto_boton" />
+
+        <Button
+            android:id="@+id/btn_urea"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Úrea"
+            android:textColor="#2196F3"
+            android:textSize="@dimen/tamano_texto_boton" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_weight="1">
+
+
+        <ImageView
+            android:id="@+id/hin"
+            android:layout_width="0dp"
+            android:layout_height="104dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:padding="@dimen/padding"
+            android:src="@drawable/hinchazon" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <Button
+            android:id="@+id/btn_hinchazon"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="¿Demasiada hinchazón?"
+            android:textSize="@dimen/tamano_texto_boton" />
+
+    </LinearLayout>
+</LinearLayout>

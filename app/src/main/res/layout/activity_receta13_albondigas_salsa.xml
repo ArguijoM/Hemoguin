@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#f7f3e9"
+        tools:context=".Receta13_albondigas_salsa">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:background="@drawable/albondigas_salsa">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="130dp"
+                android:layout_height="180dp"
+                app:srcCompat="@drawable/separador_recetasss" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_recetario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="@dimen/tamano_text"
+                android:text="@string/recetario_AES"
+                android:fontFamily="@font/titulo_recetas"
+                android:textColor="#000"
+                android:layout_gravity="center_vertical"
+                android:padding="@dimen/padding"/>
+
+        </LinearLayout>
+
+
+        <!--///////////////Ingredientes///////////-->
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageViewIng"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left"
+                app:srcCompat="@drawable/separador_ingredienteso" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_ingredientes1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/tamano_text_ip"
+                android:text="@string/ingredientes_AES"
+                android:textColor="#000"
+                android:gravity="center|start"
+                android:paddingLeft="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_horizontal"
+                android:padding="@dimen/padding"/>
+
+        </LinearLayout>
+
+
+        <!---/////////////////Preparacion//////////////////-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageViewPre"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left"
+                app:srcCompat="@drawable/separador_preparaciono" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_preparacion1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/tamano_text_ip"
+                android:text="@string/preparacion_AES"
+                android:textColor="#000"
+                android:gravity="center|start"
+                android:paddingLeft="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_horizontal"
+                android:padding="@dimen/padding"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

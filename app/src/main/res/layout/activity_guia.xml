@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f7f3e9"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            android:contentDescription="@string/nav_header_desc"
+            android:paddingTop="@dimen/nav_header_vertical_spacing"
+            app:srcCompat="@drawable/nutricionista" />
+        <TextView
+            android:id="@+id/tv_guia_n"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:textSize="@dimen/tamano_texto"
+            android:text="@string/menu_guia"
+            android:gravity="center|start"
+            android:layout_gravity="center_vertical"
+            android:padding="@dimen/padding">
+
+        </TextView>
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/progressBar4"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/side_nav_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <ImageView
+            android:id="@+id/lentejas_arroz"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:padding="@dimen/padding"
+            android:src="@drawable/hemo_1" />
+        <ImageView
+            android:id="@+id/pollo_horno"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="@dimen/padding"
+            android:src="@drawable/pollo_horno" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btn_hemodialisis"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="¿Qué es hemodiálisis?"
+            android:textSize="@dimen/tamano_texto_boton" />
+
+        <ImageView
+            android:id="@+id/pollo_horno2"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:padding="@dimen/padding"
+            android:src="@drawable/anemia1" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <ImageView
+            android:id="@+id/Alim"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:padding="@dimen/padding"
+            android:src="@drawable/alimen1" />
+
+        <Button
+            android:id="@+id/btn_anemia_cuidados"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="Anemia y sus cuidados"
+            android:textColor="#2196F3"
+            android:textSize="@dimen/tamano_texto_boton" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <Button
+            android:id="@+id/btn_aliment"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="Alimentación"
+            android:textSize="@dimen/tamano_texto_boton" />
+
+        <ImageView
+            android:id="@+id/tecnicas"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:padding="@dimen/padding"
+            android:src="@drawable/tec_co1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <ImageView
+            android:id="@+id/peso"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:padding="@dimen/padding"
+            android:src="@drawable/peso2" />
+
+        <Button
+            android:id="@+id/btn_tecnicas_cocina"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="Técnicas de cocina"
+            android:textColor="#2196F3"
+            android:textSize="@dimen/tamano_texto_boton" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+
+        <Button
+            android:id="@+id/btn_peso_liquido"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="Peso e ingesta de líquido"
+            android:textSize="@dimen/tamano_texto_boton" />
+
+        <ImageView
+            android:id="@+id/suple"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:padding="@dimen/padding"
+            android:src="@drawable/suple1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btn_122"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Suplementos alimenticios"
+            android:textSize="@dimen/tamano_texto_boton" />
+
+        <Button
+            android:id="@+id/btn_suplementos_alimenticios"
+            android:layout_width="0dp"
+            android:layout_gravity="center|left"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="Suplementos alimenticios"
+            android:textColor="#2196F3"
+            android:textSize="@dimen/tamano_texto_boton" />
+    </LinearLayout>
+
+</LinearLayout>

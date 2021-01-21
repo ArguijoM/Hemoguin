@@ -1,0 +1,819 @@
+<resources>
+    <string name="app_name">HEMOGUIN_App</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="title_activity_menu">HEMOGUIN</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">HEMOGUIN</string>
+    <string name="nav_header_subtitle">Bienvenido</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">INICIO</string>
+    <string name="menu_guia">GUÍA NUTRICIÓN</string>
+    <string name="menu_recetario">RECETARIO</string>
+    <string name="menu_tips">ALIMENTOS ALTOS EN</string>
+    <string name="menu_piramide">PIRÁMIDE NEFRALIA</string>
+    <string name="menu_caras_piramide"> CARAS DE LA PIRÁMIDE NEFRALIA</string>
+    <string name="caras_piramide">PIRÁMIDE DE ALIMENTACIÓN SALUDABLE</string>
+    <string name="menu_tablas">TABLAS DE APOYO</string>
+    <string name="menu_extras">EXTRAS</string>
+    <string name="menu_articulo">ARTÍCULO MENSUAL</string>
+    <string name="menu_piramide_neftalina">PIRÁMIDE NEFRALIA</string>
+    <string name="aceites_grasas">ACEITES Y GRASAS</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--//////////////////////////////////////7Titulos de las recetas/////////////////////////////////////////////////////-->
+
+    <!--////// Contiene el texto que se va a visualizar///////////////////-->
+    <string name="recetario_LcA">Lentejas guisadas con arroz</string>
+    <string name="ingredientes_LcA">¼ Tza. Lentejas doble cocción, 2 cdas Aceite de oliva \n
+                                    ¼ Tza. Cebolla, 1 Diente de ajo\n
+                                    ½ pza. Papa doble cocción\n
+                                    1 Pza. Tomate pelado, ½ Tza. Zanahoria doble cocción\n
+                                    ¼ Tza. Arroz y 100ml. Agua.
+    </string>
+    <string name="preparacion_LcA">Tener las lentejas y las verduras en remojo previamente unas 24 horas cambiándoles el agua.
+                                    En una cazuela poner las papas y la zanahoria, y en otra las lentejas y realizarles la doble cocción.
+                                    Realizar un sofrito con el ajo y la cebolla picada previamente sometida a remojo.
+                                    Agregar un tomate entero, molido y sin cascara.
+                                    Añadirle este sofrito a las lentejas previamente quitado el caldo de cocción y añadido un poco de agua junto con la papa y la zanahoria cocidas.
+                                    Dejar que se hagan un poco más e incorporar el arroz cocido.
+
+    </string>
+
+    <string name="recetario_EdA">Ensalada de arroz</string>
+    <string name="ingredientes_EdA">¼ Tza. Arroz\n
+                                    1 Pza. Zanahoria remojo \n
+                                    2 cdas. Chícharos \n
+                                    2 cdas. Maíz en grano hervido\n
+                                    2 cdas. soperas Aceite oliva \n
+                                    1 cda. Vinagre\n
+                                    ½ Tza. Agua
+                                    ½ Pza. Pimiento rojo remojo. \n
+
+    </string>
+    <string name="preparacion_EdA">Poner en un recipiente una base a modo de nido arroz cocido con una hoja de laurel.
+        Incorporar la zanahoria, el chícharo, el maíz en grano y el pimiento picado previamente sometidos a remojo y cocidos,
+        mezclar con el arroz. Finalmente añadir una cucharada de aceite, una de vinagre y pimienta.
+    </string>
+
+    <string name="recetario_CdA">Croquetas de Atún</string>
+    <string name="ingredientes_CdA">1 Pza. Papa doble cocción en puré,\n
+                                    1 Tza. Atún en agua drenado,\n
+                                    ½ Tza. Pan molido, 1 Pza. Huevo, \n
+                                    ¼ Tza. Harina de trigo,\n
+                                    1 pizca Pimienta blanca, \n
+                                    6 cdas. Aceite, \n
+                                    1 cda. Perejil picado.
+
+    </string>
+    <string name="preparacion_CdA">Mezclar el puré de papa, el atún, el perejil, el huevo y la harina.
+        Incorpora todo con pimienta. Agregar poco a poco el pan molido. Añadir aceite y formar las croquetas,
+        empanizarlas y refrigerar por 30 min. para después freírlas. Ponerlas en un papel absorbente para quitar el máximo de aceite.
+
+    </string>
+
+    <string name="recetario_FdP">Filete de pescado a la Plancha</string>
+    <string name="ingredientes_FdP">1 Filete de Pescado,\n
+                                    Especias al gusto (Pimienta negra y cilantro), \n
+                                    3 cdas. Zumo de Limón natural,  \n
+                                    3 cdas. Aceite de oliva.
+    </string>
+    <string name="preparacion_FdP">Se prepara el filete de pescado con las especias al gusto (pimienta negra y cilantro),
+        se coloca a la plancha con un poco de aceite durante 4 minutos a cada lado.\n
+Una vez hecho se rocía con un poco de zumo de limón y se sirve. Acompáñelo con arroz y ensalada.
+
+    </string>
+
+    <string name="recetario_PdP">Puré de papa</string>
+    <string name="ingredientes_PdP">1pza. Papa doble cocción,\n
+                                    ¼ tza. Cebolla doble cocción, 2 cdas. Aceite de oliva,\n
+                                    ¼ tza. Leche  entera, Especias al gusto (pimienta y nuez moscada),\n
+                                    ¼ tza. Zanahoria doble cocción.
+
+    </string>
+    <string name="preparacion_PdP">Pelar la papa y la zanahoria una noche antes de prepararlas y cortarlas en trozos,
+        dejarlas en agua cambiándosela de vez en cuando. Añadir la papa, la zanahoria y la cebolla en agua hirviendo,
+        al estar blandas las verduras retirar el agua. Estando las verduras blandas y secas comience a triturarlas.
+        Se le agrega un poco de leche, el aceite de oliva y las especias al gusto (pimienta, nuez moscada) y se trituran
+        hasta formar el puré.
+
+    </string>
+
+    <string name="recetario_PaH">Pollo al horno</string>
+    <string name="ingredientes_PaH">250 gr. Pollo entero,\n
+                                    ½ pza. Cebolla remojo,\n
+                                    4 cdas. Aceite oliva,\n
+                                    4 cdas. Vino blanco, \n
+                                    Pimienta al gusto
+
+    </string>
+    <string name="preparacion_PaH">Cortar la cebolla en láminas y someterlas a remojo.
+        Escurrir muy bien y colocar en la fuente del horno. Colocar los muslos sobre la cama de cebolla, con la piel hacia arriba y pimentados.
+        Añadir un poco de vino blanco, no más de un cuarto de un vaso pequeño.
+        Introducir en el horno precalentado. A la media hora, o cuando la piel se haya dorado, se da la vuelta a los cuartos de pollo para que se asen por el otro lado.
+
+    </string>
+
+    <string name="recetario_FdR">Filete de res al vino</string>
+    <string name="ingredientes_FdR">1 Filete de res, \n
+                                    1 diente de ajo,\n
+                                    ½ pza. cebolla remojo,\n
+                                    1 pizca Pimienta blanca, \n
+                                    1 pizca Pimienta negra, \n
+                                    6 cdas. Vino blanco, \n
+                                    2 cdas. Aceite oliva, \n
+                                    ¼ Tza. Agua
+
+    </string>
+    <string name="preparacion_FdR">Los filetes se pueden cortar en tiras. Previamente se echa la pimienta negra y blanca al gusto
+        por ambos lados de los filetes y se dejan reposar 10 min. En una sartén se agrega el aceite de oliva y se sofríe el
+        ajo y la cebolla sometida previamente a remojo. Se añaden las tiras de carne y se dora. Por último agregamos vino y
+        se tapa la sartén 10 min. Moviéndolos para evitar que se quemen, en el caso de que se quede sin caldo antes de tiempo se
+        le incorpora otro poco de agua.
+
+    </string>
+
+    <string name="recetario_CaA">Champiñones al ajo</string>
+    <string name="ingredientes_CaA">½ Tza. Champiñones fileteados,\n
+                                    1 diente de ajo,   \n
+                                    1 cda. Aceite de oliva,\n
+                                    1 pizca de pimienta blanca, \n
+                                    1 pizca de pimienta negra .
+
+
+    </string>
+    <string name="preparacion_CaA">Sofreír el ajo en el aceite. Antes de que llegue a quemarse poner los champiñones
+        bien escurridos, enjuagados y revolver de vez en cuando hasta que cojan ese punto tostado.
+        Añadir la pimienta blanca y negra y remover muy bien.
+
+    </string>
+
+    <string name="recetario_HcC">Huevo revuelto con champiñones</string>
+    <string name="ingredientes_HcC">1 Pza. Huevo, \n
+                                    1 Pza. Clara de huevo, \n
+                                    ½ Tza. Champiñones fileteados, \n
+                                    2 cdas. de aceite de oliva,\n
+                                    1 diente de ajo, \n
+                                    ½ pza. Chile serrano picado,\n
+                                    ½ cda. Vinagre.
+
+    </string>
+    <string name="preparacion_HcC">En un sartén se pone el aceite y se refríe el ajo. Se añaden los champiñones.
+        Se le puede añadir el chile serrano picado si se desea. Se bate el huevo con la clara y se añade a los champiñones,
+        dándole vueltas hasta que el huevo cuaje. Si se desea que el huevo no se cuaje mucho se le puede añadir unas gotas de vinagre.
+
+    </string>
+
+    <string name="recetario_fp">Filete de pollo a la plancha
+</string>
+    <string name="ingredientes_fp">1 Filete de Pechuga de pollo\n
+        2 cdas. Aceite de oliva\n
+        2 dientes de Ajo\n
+        1 pizca de pimienta blanca\n
+        1 pizca de pimienta negra.\n
+
+
+    </string>
+    <string name="preparacion_fp">Abrimos las pechugas de pollo en filetes finos.
+        Espolvorear la pimienta negra. En una sartén antiadherente o en una plancha de cocina a
+        fuego fuerte y con un poco de aceite y ajo se cocina vuelta y vuelta los filetes de pechuga de pollo
+        espolvoreándole la pimienta blanca cuando estén cocinados.
+
+    </string>
+
+
+    <string name="recetario_HrA">Huevos rellenos de atún con mayonesa</string>
+    <string name="ingredientes_HrA">2 Pza. Huevo, \n
+                                    ½ lata atún en agua escurrido, \n
+                                    5 cdas. Mayonesa,\n
+                                    ½ Tza. Zanahoria rallada doble cocción,\n
+                                    ½ Pza. Pimiento morrón en tiras.
+
+    </string>
+    <string name="preparacion_HrA">Cocer los huevos durante 15 minutos en una cazuela con agua. Pelarlos y cortarlos por la mitad.
+        Retirar las yemas y poner una de ellas en un bowl (reservar las claras). Añadir media lata de atún, desmenuzar todo y mezclarlo
+        con las yemas. Agregar la mitad de la mayonesa y mezclar bien. Con una cuchara pequeña rellenar las 4 medias claras reservadas
+        anteriormente y cubrir con un poco de mayonesa. Rallar la zanahoria cocida y colocar sobre los huevo rellenos. Servir y
+        acompañar con tiras de pimiento asado.
+
+    </string>
+
+
+    <string name="recetario_Hdp">Hamburguesa de pollo</string>
+    <string name="ingredientes_Hdp">100 gr. Pechuga de pollo\n
+        ¼ pza. Cebolla remojo\n 1 cda. Margarina\n                      1 Huevo\n
+         1 pizca Pimienta blanca\n 1 pizca Nuez moscada\n
+        2 reb. Pan blanco para hamburguesa sin sal\n
+        2 cdas. Aceite de oliva\n
+        2 reb. Jitomate.\n
+    </string>
+    <string name="preparacion_Hdp">Se pica la pechuga de pollo y se mezcla con el huevo y la margarina.
+        Después se condimenta al gusto con la pimienta y la nuez moscada. Se moldea 1 bola.
+        Se aplana entre dos papeles de celofán y se reserva en la nevera hasta el
+        momento de hacerlas a la plancha. La cebolla previamente sometida a remojo se corta en aros y
+        se ponen a dorar en el aceite. Se arma la hamburguesa acompañando con la cebolla y 2 rebanadas
+        de jitomate y se pasa por la plancha con un poco de aceite  por ambos lados.
+    </string>
+
+
+    <string name="recetario_AES">Albondigas en salsa</string>
+    <string name="ingredientes_AES">100 gr. Pechuga de pollo\n
+     100g. Carne molida\n 2 cdas. Aceite de oliva\n
+         ¼ Tza. Pan molido\n ½ pza. Cebolla remojo\n 1 pizca de especias (Ajo en polvo, pimienta negra y nuez moscada)\n
+         4 cdas. Vino blanco\n
+        2 cdas. Harina de trigo\n ¼ Tza. Agua\n ¼ Tza. Leche.\n
+
+    </string>
+    <string name="preparacion_AES">Poner en un recipiente (bowl) la carne molida, el pan molido, la leche
+        y las especias. Mezclarlo muy bien. Realizar las bolas de las albóndigas y pasarlas por la harina.
+        En una olla refreír la cebolla en el aceite e ir añadiendo las albóndigas dejando que se doren.
+        Una vez que estén doradas, verter el vino y el agua y dejar que se evapore.
+    </string>
+
+    <string name="recetario_ACL">Arroz con leche</string>
+    <string name="ingredientes_ACL">¼ Tza. Arroz \n
+        ½ Tza. Leche entera/Leche de soya\n
+        3 cdas. Azúcar\n  1 pisca de Canela en polvo.\n
+    </string>
+    <string name="preparacion_ACL">Lavar y escurrir el arroz. Hervir la leche e incorporar el arroz.
+        Añadir el azúcar y dejar hervir a fuego lento y esperar a que se vaya consumiendo poco a poco
+        hasta tener la consistencia deseada. Servir y espolvorear la canela en polvo.
+    </string>
+
+    <string name="hemodialisis_1">¿QUE ES LA HEMODIÁLISIS?</string>
+
+    <string name="hemodialisis_2">Nuestros riñones son órganos vitales que tienen importantes funciones en nuestro cuerpo:
+-Por una parte se encargan de limpiar las sustancias tóxicas de nuestro organismo como son: Urea, creatinina, potasio, fósforo, etc.
+</string>
+
+    <string name="hemodialisis_3">(Usted  escuchará frecuentemente mencionar a su médico éstas sustancias, es importante poner atención y cambiar sus hábitos de alimentación, ya que un nivel alto de ellas conllevará a una serie de complicaciones en su salud).
+-Por otra parte se encargan de eliminar líquidos del organismo por medio de la orina.
+Cuando aparece un daño en los riñones una o ambas funciones desaparecen y es momento de utilizar una máquina que sustituya esas funciones.
+</string>
+
+    <string name="hemodialisis_4">Al iniciar el tratamiento sustitutivo llamado hemodiálisis, usted deberá hacer cambios importantes en su forma de vida, esto con el fin de mantenerse estable y no presentar complicaciones.
+Es muy importante la higiene personal, siguiendo las recomendaciones de enfermería, usted debe cuidar su catéter o fístula, evitando malos hábitos que representen un riesgo de infección, una sobrecarga o daño en el área mencionada, evite ejercicios, movimientos o trabajos pesados.
+Otro factor importante es el cuidado de sus alimentos, evite consumir comida chatarra, productos enlatados, embolsados o empaquetados, siga en todo momento las recomendaciones alimenticias que se le brindarán en la unidad.
+Recuerde que una alimentación mala se verá reflejada directamente en su salud y las complicaciones no pararán.
+</string>
+    <string name="Ane1">¿QUE ES LA ANEMIA?
+</string>
+
+    <string name="ane2">La Anemia es un problema de salud que afecta directamente a la sangre de su cuerpo, se presenta cuando hay pocos glóbulos rojos, lo cual quiere decir que hay dificultad para transportar oxigeno por todo su cuerpo.
+</string>
+    <string name="ane3">¿Por qué tengo anemia?
+</string>
+    <string name="ane4">Existe una hormona llamada eritropoyetina la cual se encarga de formar los glóbulos rojos que componen la sangre, ésta hormona es producida por los riñones, por lo tanto al haber una falla en el funcionamiento de los riñones estos dejan de producir la eritropoyetina causando que la sangre sea baja en glóbulos rojos y no transporte oxígeno correctamente.
+</string>
+    <string name="ane5">Síntomas
+</string>
+    <string name="ane6">
+-Fatiga\n
+-Debilidad\n
+-Piel pálida o amarillenta\n
+-Dificultad para respirar\n
+-Latidos del corazón irregulares\n
+-Mareos\n
+-Dolor en pecho\n
+-Manos y pies fríos\n
+-Dolor de cabeza\n
+</string>
+    <string name="ane7">CUIDADOS EN ANEMIA
+</string>
+    <string name="ane8">Al padecer anemia debe mantenerse bajo tratamiento y cuidado constante, siga las siguientes recomendaciones para mejorar su calidad de vida y evitar complicaciones</string>
+    <string name="ane9">1.-Aliméntese correctamente, coma variado y suficiente, pero base su dieta en los alimentos recomendados.\n
+2.-Consuma tabletas de hierro según las indicaciones médicas. \n
+3.-Aplíquese regularmente su dosis de eritropoyetina según las indicaciones del médico. \n
+4.-Manténgase al tanto del nivel de hemoglobina en sus laboratorios mensuales, recuerde que un nivel de hemoglobina de 6 o menor no es adecuado y esto provocará que no pueda entrar normalmente a sus sesiones de hemodiálisis hasta tener niveles mas altos.\n
+5.-En caso de tener indicación del médico de una transfusión sanguínea no lo piense más y asista inmediatamente a realizarla, si tiene dudas pida apoyo a trabajo social.\n
+</string>
+
+    <string name="alim1">ALIMENTACIÓN</string>
+    <string name="alim2">El cuidado de sus hábitos de alimentación es muy importante, el evitar comer ciertos alimentos serán de gran ayuda para mejorar su salud y sus sesiones de hemodiálisis. Una alimentación adecuada mejorará su calidad de vida, permitirá resultados más óptimos en cada sesión de hemodiálisis y hará que usted esté mejor preparado para un futuro trasplante.
+Los alimentos contienen ciertas sustancias necesarias para que el cuerpo funcione correctamente. Es importante que conozca qué son las proteínas, además de que funciones tienen en su cuerpo ciertos minerales como el potasio, el fósforo, el sodio y el calcio para hacer los cambios necesarios, evitando así consumir alimentos ricos en estos nutrientes.
+</string>
+    <string name="alim3">PROTEINAS</string>
+    <string name="alim4">Son nutrientes importantes para la formación de tejidos y músculos en el cuerpo, estos nutrientes los encontramos principalmente en alimentos que provienen de los animales (Carnes, Huevo, queso y leche principalmente).
+\n \nSu consumo debe ser moderado de acuerdo a las porciones que le sean indicadas durante el día, recuerde que un consumo elevado de alimentos ricos en proteína  producirá un aumento en un desecho tóxico llamado Urea, por lo tanto serán necesarias un mayor número de sesiones por semana.
+</string>
+    <string name="alim5">POTASIO</string>
+    <string name="alim6">El potasio es un componente necesario para un correcto funcionamiento del cuerpo, especialmente en la función del sistema muscular y el sistema nervioso.
+Es importante mencionar que el potasio que ingresa al cuerpo por medio de los alimentos no puede ser eliminado por los riñones, por lo tanto este se acumula en la sangre y produce graves alteraciones al organismo, principalmente problemas al corazón.
+Recuerde que un nivel de potasio elevado puede producir una falla cardíaca (paro cardíaco).
+</string>
+    <string name="alim7">La gran mayoría de los alimentos poseen potasio, pero cada uno con diferentes cantidades. Es importante diferenciar los alimentos ricos en potasio y evitar su consumo.
+Ejemplo: Papaya, melón, plátano, naranja, aguacate, jitomate, acelga, espinaca, cilantro, leche entera, almendras, cacahuates, nuez,  piñón, frijol, lenteja, agua de coco, electrolitos y sueros.
+</string>
+    <string name="alim8">FÓSFORO</string>
+
+    <string name="alim9">El fósforo al igual que el potasio es un componente que encontramos en la mayoría de los alimentos, de igual manera es importante controlar el consumo de aquellos alimentos con altos contenidos de fósforo.
+\n\n *Ejemplo: Carnes rojas, carnes ahumadas, jamón, salchicha, chorizo, yesca, chicharrón, hígado, chuletas, mariscos,  queso amarillo, quesos enchilados o grasosos, almendras, piñón, cacahuates, nuez, leche entera, frijol, lenteja, haba, garbanzo, chocolate, refrescos, electrolitos, sueros y agua de coco.
+Mas adelante veremos recomendaciones y técnicas de cocina para hacer algunos de estos alimentos seguros  para su consumo, además de conocer tipos de leche, quesos y bebidas apropiadas para usted sin necesidad de restringir en su totalidad estos alimentos.
+</string>
+    <string name="alim10">Debemos tener en cuenta que el fósforo al no poder ser desechado por medio de los riñones se acumula en sangre, lo que produce una alteración en sus huesos y provoca una intensa sensación de picor o comezón.
+</string>
+    <string name="alim11">SODIO</string>
+    <string name="alim12">
+Es un componente de la sal de mesa, es el responsable del aumento de la presión y el aumento de hinchazón o acumulación de agua en su cuerpo.
+Es importante llevar acabo una dieta baja en sal o incluso estrictamente libre de sal.
+</string>
+    <string name="alim13">ALIMENTOS RICOS EN SAL QUE DEBE EVITAR
+</string>
+    <string name="alim14">
+-Sal de cocina.\n
+-Embutidos como jamón, salchicha, chorizo y chicharrón.\n
+-Carnes secas y ahumadas como cecina y charales.\n
+-Alimentos enlatados y empaquetados.\n
+-Refrescos y bebidas industrializadas.\n
+-Comida chatarra.\n
+</string>
+    <string name="alim15">UTILICE UN SALERO DE ESPECIAS
+</string>
+    <string name="alim16">Sustituya el uso de sal de mesa con especias. En un salero vacío muela y combine las siguientes especias:
+Albahaca, tomillo, pimienta, laurel, romero, comino, tomillo y nuez moscada.
+</string>
+    <string name="alim17">UTILICEMOS ESPECIAS PARA SUSTITUIR LA SAL
+</string>
+    <string name="alim18">
+Es importante que sus alimentos sean apetecibles, es decir no deben de quedar desabridos, para lograr esto podemos utilizar un mínimo de sal solo para sazonar, evitando platillos salados y más aún tener saleros en la mesa.
+</string>
+    <string name="alim19">Otra opción muy recomendable es el uso de especias para sustituir el uso de sal, algunos ejemplos que podemos utilizar para darle sabor a sus platillos son: Tomillo, mejorana, albahaca, hierbabuena, nuez moscada, pimienta, canela, laurel, jengibre, comino, ajo y epazote. También podemos hacer uso de vinagre y aceites vegetales, estos aceites pueden ser combinados con las anteriores especias para darle un sabor único a sus alimentos.
+</string>
+
+
+    //cambio de pagina
+    <string name="alim20">SODIO</string>
+    <string name="alim21">Es un componente de la sal de mesa, es el responsable del aumento de la presión y el aumento de hinchazón o acumulación de agua en su cuerpo.
+Es importante llevar acabo una dieta baja en sal o incluso estrictamente libre de sal.
+</string>
+    <string name="alim22">
+ALIMENTOS RICOS EN SAL QUE DEBE EVITAR
+</string>
+    <string name="alim23">-Sal de cocina.\n
+-Embutidos como jamón, salchicha, chorizo y chicharrón.\n
+-Carnes secas y ahumadas como cecina y charales.\n
+-Alimentos enlatados y empaquetados.\n
+-Refrescos y bebidas industrializadas.\n
+-Comida chatarra.\n
+</string>
+    <string name="alim24">UTILICE UN SALERO DE ESPECIAS
+</string>
+    <string name="alim25">Sustituya el uso de sal de mesa con especias. En un salero vacío muela y combine las siguientes especias:
+Albahaca, tomillo, pimienta, laurel, romero, comino, tomillo y nuez moscada.
+</string>
+
+    // pagina12
+    <string name="alim26">UTILICEMOS ESPECIAS PARA SUSTITUIR LA SAL
+</string>
+    <string name="alim27">Es importante que sus alimentos sean apetecibles, es decir no deben de quedar desabridos, para lograr esto podemos utilizar un mínimo de sal solo para sazonar, evitando platillos salados y más aún tener saleros en la mesa.
+</string>
+    <string name="alim28">
+Otra opción muy recomendable es el uso de especias para sustituir el uso de sal, algunos ejemplos que podemos utilizar para darle sabor a sus platillos son: Tomillo, mejorana, albahaca, hierbabuena, nuez moscada, pimienta, canela, laurel, jengibre, comino, ajo y epazote. También podemos hacer uso de vinagre y aceites vegetales, estos aceites pueden ser combinados con las anteriores especias para darle un sabor único a sus alimentos.
+</string>
+    //pagina13
+    <string name="pag13.1">CUIDEMOS NUESTRA ALIMENTACIÓN
+</string>
+    <string name="pag13.2">*Evitemos las 4 ¨E¨: \n
+-Empaquetados\n
+-Enlatados\n
+-Embutidos\n
+-Envasados\n
+</string>
+    <string name="pag13.3">PUNTOS IMPORTANTES PARA MEJORAR SU ALIMENTACIÓN.
+</string>
+    <string name="pag13.4">1.-El tipo de queso mas recomendado para usted es el queso panela o bien el queso fresco, 2 rebanadas de tamaño promedio es una cantidad aconsejada por día.\n
+2.- El tipo de leche que recomendamos que usted consuma es la leche de almendras, la leche de arroz o leche de soya, puede incluso utilizar leche deslactosada light pero en menor cantidad. Se aconseja tomar solo una taza de leche al día.  \n
+3.- El consumo de carne se aconseja sea en su mayoría carnes blancas, la cantidad es un filete del tamaño de la palma de su mano al día.  \n
+4.- El consumo de huevo puede ser diario, se recomienda utilizar 2 claras y solo una yema. \n
+</string>
+    //pagina14
+    <string name="pag14.1">PLATO IDEAL
+</string>
+    <string name="pag14.2">Otra forma de llevar un control de las cantidades de nuestros alimentos es mediante el uso correcto de nuestro plato, es decir distribuir equilibradamente las porciones de cada alimento, a continuación presentamos ejemplos de una correcta distribución de alimentos.
+</string>
+    <string name="pag14.3">Pescado con arroz, frijoles y ensalada de ejotes con zanahoria
+</string>
+    <string name="pag14.4">Cuide el tamaño de la porción de pescado, observe que solo ocupa un cuarto del total del plato, el arroz y los frijoles complementan otra cuarta parte, finalmente las verduras previamente remojadas  abarcan la mitad del plato.
+</string>
+    <string name="pag14.5">Pollo a la plancha con frijoles, tortilla, guacamole y ensalada de pimientos
+</string>
+    <string name="pag14.6">La cantidad de pollo ocupa solo una cuarta parte de nuestro plato, complementamos con frijoles y un par de tortillas de maíz, finalmente la mitad del plato la ocupamos con nuestros vegetales previamente remojados (pimientos, chayote, tomate y pepino)  y un poco de guacamole.
+</string>
+
+    //pagina15
+    <string name="pag15.1">*Alimentos de origen animal: En el grupo de los alimentos de origen animal encontramos las carnes blancas (pollo y pescado), carne roja (cerdo y res), el huevo y el queso.
+</string>
+    <string name="pag15.2">*Aceites y grasas: En este grupo encontramos los frutos secos como almendras, cacahuates, nueces, piñones, crema, mayonesa, mantequilla y aguacate.
+</string>
+
+    //pagina16
+    <string name="pag16.1">CUIDA TUS PORCIONES
+</string>
+    <string name="pag16.2">
+El paciente en hemodiálisis puede llevar una dieta amplia y variada, el punto importante aquí es cuidar la cantidad que come de cada alimento, es decir evitar excesos de ciertos alimentos principalmente de cárnicos, huevo y queso.
+Revisemos las cantidades de cada grupo de alimentos que se recomienda consumir por tiempo de comida.
+
+*Cereales y legumbres: En el grupo de los cereales encontramos el pan, las pastas, tortillas, arroz, avena, papa, fideos, etc.
+</string>
+    <string name="pag16.3">En el grupo de las legumbres encontramos los frijoles, las lentejas, los garbanzos, las habas y la soya.
+</string>
+
+
+    <string name="tecnixcas1">TÉCNICAS DE COCINA QUE HARÁN SUS ALIMENTOS MÁS SEGUROS
+</string>
+    <string name="tecnixcas2">1.- Técnica de remojo: Esta técnica consiste en dejar en agua fría por 12 horas sus alimentos previamente pelados sin cáscara y cortados en cubos pequeños, posteriormente escúrralos y prepárelos al gusto.
+</string>
+    <string name="tecnixcas3">
+2.- Técnica de doble cocción: Esta técnica consiste en pasar un alimento 2 veces por el fuego, ejemplo: Los frijoles de la olla póngalos a cocer y a mitad del proceso cámbieles el agua, una vez terminados escúrralos y póngalos a freír.
+</string>
+
+    <string name="peso1">¿Cuánto líquido puedo tomar al día?
+</string>
+    <string name="peso2">La cantidad de liquido que usted podrá tomar dependerá  de la cantidad de orina que usted expulse en 24 horas. Como regla tendremos medio litro de agua al día, a esta cantidad le sumaremos los líquidos que expulse al orinar, para establecer una cantidad adecuada revise bien sus evacuaciones diarias, si tiene alguna duda consulte al personal de salud.
+</string>
+    <string name="peso3">Vigile su peso
+</string>
+    <string name="peso4">
+Es importante conocer cual es su peso seco, es decir el peso con el que usted se encuentra libre de líquidos en exceso, este peso normalmente lo conocemos después de sus sesiones de hemodiálisis.
+Recuerde su peso y vigílelo regularmente para evitar un consumo excesivo de líquidos.
+Es muy recomendable tener una báscula de baño para tener un monitoreo constante, lo que le ayudará a estar mejor controlado y así evitar complicaciones.
+</string>
+    <string name="peso5">CONTROLE LOS LÍQUIDOS Y VIGILE SU PESO
+</string>
+    <string name="peso6">
+Es importante que tenga cuidado con la ingesta de líquido diario, recuerde que no solo hablamos de agua natural, también englobamos el consumo de caldos, sopas, leche, helado, yogurt, café y frutas. Cuide sus preparaciones, evite las mas caldosas</string>
+    <string name="peso7">Un error común en hemodiálisis es creer que todo el líquido que usted consuma en exceso será removido totalmente de su cuerpo en cada sesión, esto no es completamente cierto, para evitar complicaciones lleve las recomendaciones que en la unidad se le darán acerca de la cantidad de líquido que usted puede consumir por día.
+</string>
+    <string name="peso8">¿Porque es importante cuidar los líquidos?
+</string>
+    <string name="peso9">El cuerpo al perder la capacidad de orinar normalmente  comienza a acumular el líquido en exceso, provocando hinchazón en piernas, brazos y cara, además esto provocará un aumento en su presión arterial y dificultad para respirar, ya que el exceso de liquido puede entrar a sus pulmones.
+</string>
+
+    <string name="sup1">SUPLEMENTOS ALIMENTICIOS
+</string>
+    <string name="sup3">Fresupport RNL:  Presentación en polvo de  454 gr. Se recomienda mezclar en un vaso de agua de 240 ml. la medida que le sea recomendada por el personal de salud.
+</string>
+    <string name="sup2">Usted puede llegar a experimentar cambios en su alimentación debido a la falta de apetito y cambio en la percepción del sabor de ciertos alimentos (más amargos), es importante que no deje de comer, el problema puede hacerse más severo si usted comienza a bajar de peso.
+Ante esta problemática podemos hacer uso de ciertos suplementos alimenticios recomendados para pacientes en hemodiálisis, los cuales nos asegurarán un aporte correcto de nutrientes y energía en conjunto con la dieta recomendada.
+</string>
+    <string name="sup4">*Nepro-HP: Presentación liquida de 237 ml.
+Se recomienda su uso durante las sesiones de hemodiálisis. Necesario ajustar el control de líquidos. Tómese en frío para mejorar su sabor.
+Agítese antes de usar.
+</string>
+    <string name="sup5">*Enterex Renal: Presentación líquida de 237 ml.
+Complemente la dieta diaria con una o dos tomas al día. Necesario ajustar el control de líquidos. Tómese frío para mejorar su sabor.
+Agítese antes de usar.
+</string>
+
+
+    <!--//////////////////////////////////////Tips de Nutricion/////////////////////////////////////////////////////-->
+    <!--Tips de Potasio/-->
+    <string name="potasio1">
+        <b>¿POTASIO ALTO?</b>
+</string>
+    <string name="potasio2">
+       <b>SIGUE ESTAS RECOMENDACIONES:</b>
+</string>
+
+    <string name="potasio3"><b>ALIMENTOS A DISMINUIR: \n \n </b>
+        -FRUTOS SECOS: CACAHUATES, ALMENDRAS, NUECES, PIÑONES Y PISTACHES. \n \n
+        -FRUTAS: PLATANO, MANDARINA, GRANADA, TUNAS, PAPAYA, MELON, KIWI, NARANJA Y CIRUELAS PASAS. \n \n
+        -VERDURAS: JITOMATE, ESPINACA, ACELGA, CILANTRO, LECHUGA, NOPAL, APIO, CALABAZA Y CHAMPIÑONES. (USE TECNICAS DE REMOJO O DOBLE COCCION). \n \n
+        -CEREALES: EVITE TODO CEREAL INTEGRAL, AVENA, HARINAS DE TRIGO Y PAPA. (USE TECNICAS DE REMOJO O DOBLE COCCION). \n \n
+        -GRASAS: EVITE EL USO EXCESIVO DEL AGUACATE. \n \n
+        -LEGUMBRES: (FRIJOLES, LENTEJAS, HABAS Y GARBANZOS) LIMITE SU CONSUMO A UNA SOLA PORCION AL DIA. \n \n
+        -LACTEOS: UTILICE LA LECHE DE ALMENDRAS LIMITANDO SU CONSUMO 1 VEZ AL DIA. \n \n
+        -NO SE HIDRATE CON SUEROS (ELECTROLITOS) NI BEBIDAS ENERGETICAS. \n \n
+</string>
+
+
+    <!--Tips de Sodio/-->
+    <string name="sodio1">
+        <b>¿SODIO ALTO?</b>
+</string>
+    <string name="sodio2">
+       <b>SIGUE ESTAS RECOMENDACIONES:</b>
+</string>
+    <string name="sodio3">
+        <b> ALIMENTOS A DISMINUIR: \n \n </b>
+       -EVITA SALES DE CUALQUIER TIPO, QUE TUS GUISOS ESTEN SAZONADOS PERO NO SALADOS. EVITA SALEROS EN LA MESA. UTILIZA OTRAS ESPECIAS COMO LA PIMIENTA, LA NUEZ MOSCADA, LA ALBAHACA, ETC.\n \n
+-NO SE HIDRATE CON SUEROS (ELECTROLITOS) NI BEBIDAS ENERGETICAS.\n \n
+-FRUTOS SECOS: DISMINUYE CACAHUATES Y PISTACHES A UNA SOLA PORCION AL DIA. CONSUMELOS NATURALES Y EVITA LOS EMBOLSADOS. \n \n
+-CONSUMA MODERADAMENTE PALETA O NIEVE DE HIELO DE AGUA PERO QUE SEA DE PREFERENCIA DE LIMON EVITANDO CHAMOY Y OTRA PREPARACIONES MAS SALADAS.\n \n
+-CEREALES: EVITE TODO CEREAL INTEGRAL, PUEDES COMER PALOMITAS PERO SIN SAL, NI SALSAS O KETCHUP.\n \n
+-LACTEOS: UTILICE LA LECHE DE SOYA LIMITANDO SU CONSUMO 1 VEZ AL DIA.\n \n
+-RESTRINGE COMPLETAMENTE: ENLATADOS, JAMON, SALCHICHA, CHORIZO, YESCA, CHICHARRON, CHULETAS AHUMADAS Y MARISCOS.\n \n
+
+</string>
+
+    <!--Tips de Calcio/-->
+    <string name="calcio1">
+        <b>¿CALCIO ALTO?</b>
+</string>
+    <string name="calcio2">
+       <b>SIGUE ESTAS RECOMENDACIONES: </b>
+</string>
+    <string name="calcio3">
+    <b> ALIMENTOS A DISMINUIR: \n \n </b>
+        -LACTEOS: EVITE LECHE ENTERA Y DISMINUYA EL CONSUMO DE YOGURTH. UTILICE LA LECHE DE SOYA LIMITANDO SU CONSUMO 1 VEZ AL DIA.\n \n
+-ALIMENTOS DE ORIGEN ANIMAL: CUIDE EL CONSUMO EXCESIVO DE HUEVO, UN PAR DE HUEVOS AL DIA ES LO RECOMENDADO. DISMINUYA ESTRICTAMENTE EL CONSUMO DE QUESOS Y REQUESÓN. \n \n
+-CEREALES: EVITE EL CONSUMO EXCESIVO DE TORTILLA DE MAIZ, 2 PIEZAS POR TIEMPO DE COMIDA ES LO IDEAL. EVITE EL CONSUMO DE PAN Y CEREALES INTEGRALES. \n \n
+- SI USTED CONSUME ALGUN COMPLEMENTO O SUPLEMENTO ALIMENTICIO HAGASELO SABER A SU MEDICO Y NUTRIOLOGO PARA VALORAR EL USO O LA RESTRICCION DE ESTE. \n \n
+
+    </string>
+
+    <!--Tips de Fosforo/-->
+    <string name="fosforo1">
+        <b>¿FOSFORO ALTO?</b>
+</string>
+    <string name="fosforo2">
+       <b>SIGUE ESTAS RECOMENDACIONES:</b>
+</string>
+    <string name="fosforo3">
+    <b> ALIMENTOS A DISMINUIR: \n \n </b>
+        -CEREALES: EVITE TODO PAN Y CEREAL INTEGRAL, DISMINUYA EL CONSUMO DE AVENA, HARINAS DE TRIGO, TORTILLA DE MAIZ Y PAPA. (USE TECNICAS DE REMOJO O DOBLE COCCION). \n \n
+-LEGUMBRES: (FRIJOLES, LENTEJAS, HABAS Y GARBANZOS) LIMITE SU CONSUMO A UNA SOLA PORCION AL DIA. (UTILICE TECNICAS DE REMOJO Y DOBLE COCCION). \n \n
+-LACTEOS: UTILICE LA LECHE DE SOYA O DE ALMENDRAS LIMITANDO SU CONSUMO 1 VEZ AL DIA. \n \n
+-RESTRINGA ESTRICTAMENTE EL USO DE ENLATADOS, JAMON, SALCHICHA, YESCAS, CHORIZO, CHICHARRON Y CHULETAS AHUMADAS. \n \n
+-ALIMENTOS DE ORIGEN ANIMAL: DISMINUYA SU CONSUMO DE HUEVO, CARNES DE PESCADO Y CARNES ROJAS. DE 1 A 2 PORCIONES POR DIA MAXIMO. \n \n
+    </string>
+
+    <!--Tips de Azucar/-->
+    <string name="azucar1">
+        <b>¿AZÚCAR ALTO?</b>
+</string>
+    <string name="azucar2">
+       <b>SIGUE ESTAS RECOMENDACIONES:</b>
+</string>
+    <string name="azucar3">
+    <b> ALIMENTOS A DISMINUIR: \n \n </b>
+        -RESTRINGIR ESTRICTAMENTE EL CONSUMO DE AZUCAR, CAJETA, MIEL, MERMELADA, CHOCOLATE, CARAMELOS, MALVAVISCOS, NIEVE, JUGOS DE CAJA Y BEBIDAS ENDULZADAS. \n \n
+-FRUTAS: PLATANO, SANDIA, NARANJA, MANGO, MELON Y PAPAYA. \n \n
+-VERDURAS: ZANAHORIA COCIDA Y CALABAZA. \n \n
+-CEREALES: PAN DULCE, PAN BLANCO, PAN TOSTADO, PAPA, CAMOTE Y GALLETAS DULCES DE EMPAREDADO O BOMBON.  \n \n
+-LACTEOS: YOGURT CON FRUTAS Y LECHES CON CHOCOLATE. \n \n
+- SI USTED CONSUME ALGUN COMPLEMENTO O SUPLEMENTO ALIMENTICIO HAGASELO SABER A SU MEDICO Y NUTRIOLOGO PARA VALORAR EL USO O LA RESTRICCION DE ESTE. \n \n
+    </string>
+
+    <!--Tips de Urea/-->
+    <string name="urea1">
+        <b>¿UREA ALTO?</b>
+</string>
+    <string name="urea2">
+       <b>SIGUE ESTAS RECOMENDACIONES: \n \n </b>
+LA UREA ES UN DESECHO QUE TU CUERPO NO PUEDE ELIMINAR NORMALMENTE, AL ESTAR ELEVADA LA UREA PUEDE PRESENTARSE PIEL ESCAMOSA Y RESECA, POR LO TANTO ES IMPORTANTE DISMINUIR ALIMENTOS QUE AUMENTAN ESTE DESECHO.
+
+</string>
+    <string name="urea3">
+    <b> ALIMENTOS A DISMINUIR: \n \n </b>
+        -TODO ALIMENTO QUE SE OBTENGA A PARTIR DE LOS ANIMALES AUMENTARÁ LOS NIVELES DE UREA SI SE CONSUMEN SIN CONTROL. \n \n
+-CARNE: EVITA TODO CARNICO EN EXCESO, COMO SON LAS CARNES ROJAS (CARNE DE CERDO, CARNE DE RES, BISTEC, CHULETA AHUMADA, CARNES MOLIDAS Y CARNES SECAS) Y LAS CARNES BLANCAS (POLLO Y PESCADO). \n \n
+-CONSUMA CON CONTROL ALIMENTOS COMO LECHE, HUEVO Y QUESO. \n \n
+-RESTRINJA COMPLETAMENTE EMBUTIDOS: CECINA, CHICHARRON, CHORIZO, YESCAS, SALCHICHA, JAMON Y TOCINO. \n \n
+- SI USTED CONSUME ALGUN COMPLEMENTO O SUPLEMENTO ALIMENTICIO HAGASELO SABER A SU MEDICO Y NUTRIOLOGO PARA VALORAR EL USO O LA RESTRICCION DE ESTE. \n \n
+
+    </string>
+
+    <!--Tips de Hinchazon/-->
+    <string name="hinchazon1">
+        <b>¿TE HINCHAS DEMASIADO?</b>
+</string>
+    <string name="hinchazon2">
+       <b>SIGUE ESTAS RECOMENDACIONES:</b>
+</string>
+    <string name="hinchazon3">
+    <b> ALIMENTOS A DISMINUIR: \n \n </b>
+        -VERDURAS: JITOMATE Y NOPAL.
+-FRUTAS: SANDIA, NARANJA, MELON, PAPAYA, UVAS, PIÑA, TUNAS Y MANDARINA. \n \n
+-CEREALES: PASTAS Y FIDEOS, EVITE SERVIRLOS CALDOSOS.\n \n
+-LEGUMBRES: (FRIJOLES, LENTEJAS, HABAS Y GARBANZOS), EVITE SERVIRLOS CALDOSOS.\n \n
+-EVITE PREPARACIONES CALDOSAS (CALDO DE RES, POLLO, PESCADO, ETC.).\n \n
+-LACTEOS: LECHE Y YOGURT. \n \n
+-NO SE HIDRATE CON SUEROS (ELECTROLITOS) NI BEBIDAS ENERGETICAS.\n \n
+-RESPETE LA CANTIDAD DE AGUA RECOMENDADA POR SU MEDICO Y NUTRIOLOGO.\n \n
+-EVITE EL CONSUMO DE BEBIDAS COMO CAFÉ, JUGOS Y REFRESCOS. \n \n
+-UTILICE DE 2 A 3 CUBOS DE HIELO PARA HUMECTAR LA BOCA, SACIAR LA SED Y EVITAR LA RESEQUEDAD.\n \n
+    </string>
+
+    <!--/////////////////////////////////////////////////Clasificacion////////////////////////////////////////////////-->
+    <string name="clasificacion1">
+    Aqui veremos la clasificacion de los alimentos de acuerdo a sus propiedades nutrimentales.
+Usted puede diferenciar la seguridad de consumo de cada grupo de alimentos de acuerdo
+a su color como se mostrara a continuación:
+    </string>
+    <string name="clasificacion2">
+Alimentos altos en proteína, potasio, fósforo, sodio o agua.\n
+Su consumo es muy limitado a 1 porción por día o por semana.
+    </string>
+    <string name="clasificacion3">
+ Alimentos moderados en proteína, potasio, fósforo, sodio o agua. Puede aplicar técnicas de remojo o doble cocción.\n
+Su consumo es con moderación cuidando las cantidades, se
+recomienda de 1 a 2 porciones por día o por semana.
+    </string>
+    <string name="clasificacion4">
+    Alimentos bajos en proteína, potasio, fósforo, sodio o agua.\n
+Su consumo es seguro cuidando las cantidades, se recomienda su consumo diariamente.
+    </string>
+
+    <!--//////////////////////////////////////////////////////EXTRAS////////////////////////////////////////////////////////-->
+    <string name="cuidados_acceso_vascular">CUIDADOS DEL ACCESO VASCULAR (CATÉTER/FÍSTULA)</string>
+    <string name="vascular_parrafo1">
+        Para la realización de la hemodiálisis es necesario un acceso vascular a través del cual se extraerá la sangre del cuerpo
+        y se conducirá a través de la maquina de hemodiálisis, ahí su sangre será limpiada de todas las sustancias tóxicas que los
+        riñones no pueden limpiar.
+    </string>
+    <string name="tipos_accesos">Tipos de accesos vasculares para hemodiálisis:</string>
+    <string name="fistula">1.- Fístula arteriovenosa:</string>
+    <string name="fistula_arteriovenosa">Es el acceso más recomendado, consiste en una pequeña operación en su brazo que unirá
+        una vena y una arteria creando un acceso más grande que facilitará su punción.
+    </string>
+    <string name="cateter">2.- Catéter venoso central:</string>
+    <string name="cateter_venoso">Es un acceso temporal que consiste en instalar un catéter, este puede ser subclavio, yugular o femoral.
+    </string>
+    <string name="boton1">CUIDADOS DEL ACCESO VASCULAR (CARÁCTER/FÍSTULA)</string>
+    <string name="boton2">SIGNOS DE ALARMA</string>
+    <string name="boton3">CUIDADO PERSONAL</string>
+    <string name="boton4">¿CÓMO BAÑARME?</string>
+    <string name="boton5">HIGIENE PERSONAL</string>
+    <string name="boton6">RECOMENDACIONES GENERALES</string>
+
+    <!--//////////////////////////////////////////////////////EXTRAS////////////////////////////////////////////////////////-->
+    <string name="cuidados_cateter">CUIDADOS DEL CATÉTER (CATÉTER/FÍSTULA)</string>
+    <string name="cateter_parrafo1">
+        1.- Mantenga una higiene personal escrupulosa para evitar infecciones. Al momento de bañarse cuide su catéter y no
+        lo moje (evite natación).
+    </string>
+    <string name="cateter_parrafo2">
+        2.- Mantenga tapado en todo momento el orificio donde entra el catéter.
+    </string>
+    <string name="cateter_parrafo3">
+        3.- Informe a enfermería si hay presencia de dolor, calor, hinchazón o cambio de color en el miembro donde tiene colocado el catéter.
+    </string>
+    <string name="cateter_parrafo4">
+        4.- Evite el uso de lociones, cremas y jabón cerca de la zona del catéter.
+    </string>
+    <string name="cateter_parrafo5">
+        5.- Evite rascarse en la zona del catéter.
+    </string>
+    <string name="cateter_parrafo6">
+        6.- No jale el catéter.
+    </string>
+    <string name="medidas_seguir">
+        MEDIDAS A SEGUIR EN CASO DE HEMORRAGIA
+    </string>
+    <string name="parrafo_medidas1">
+        1.- En caso de rotura o corte de su catéter, deberá doblar la parte restante y sellarla con cinta adhesiva o microporo,
+        trasládese inmediatamente al hospital.
+    </string>
+    <string name="parrafo_medidas2">
+        2.- En caso de que el catéter salga completamente deberá presionar el punto de salida y dirigirse urgentemente al hospital.
+    </string>
+    <!--//////////////////////////////////////////////////////EXTRAS////////////////////////////////////////////////////////-->
+    <string name="cuidados_fisula">CUIDADOS DE LA FÍSULA</string>
+    <string name="postoperatorio">Tenga los siguiente cuidados postoperatorios:</string>
+    <string name="fisula_parrafo1">
+        1.- Mantenga el brazo en alto para evitar inflamación.
+    </string>
+    <string name="fisula_parrafo2">
+        2.- Si se siente mareado recuéstese boca arriba, si el malestar continúa notifique al personal de salud.
+    </string>
+    <string name="fisula_parrafo3">
+        3.-Evite esfuerzos físicos y malas posturas en el brazo donde tiene su fístula.
+    </string>
+    <string name="fisula_parrafo4">
+        4.- Si tiene vendaje en su fístula revise que no le apriete y no presente sangrado, de ser así notifique a enfermería.
+    </string>
+    <string name="fisula_parrafo5">
+         5.- Todos los días toque y escuche su fístula, notifique cualquier cambio como presencia de dolor, ausencia de sonido o hinchazón a enfermería.
+    </string>
+    <string name="fisula_parrafo6">
+        6.- Una vez su fístula madure, su catéter le será retirado, mientras tanto conserve los cuidados necesarios.
+    </string>
+    <!--//////////////////////////////////////////////////////EXTRAS////////////////////////////////////////////////////////-->
+    <string name="desarrollo_fisula">DESARROLLO, CONSERVACIÓN Y MANTENIMIENTO DE LA FÍSTULA</string>
+    <string name="desarrollo_fisula_parrafo1">
+        1.- Para desarrollar  y tener lista su fístula realice ejercicio con una pelota de goma al menos 10 minutos cada hora aproximadamente.
+    </string>
+    <string name="desarrollo_fisula_parrafo2">
+        2.- Evite llevar joyas o ropa que aprieten el brazo.
+    </string>
+    <string name="desarrollo_fisula_parrafo3">
+        3.- Tenga cuidado de no dormir sobre el brazo de la fístula.
+    </string>
+    <string name="desarrollo_fisula_parrafo4">
+        4.- No cargue objetos pesados con ese brazo.
+    </string>
+    <string name="desarrollo_fisula_parrafo5">
+        5.- No permita que le extraigan sangre, suministren medicamento o hagan mediciones de la tensión arterial en el brazo de la fístula.
+    </string>
+    <string name="desarrollo_fisula_parrafo6">
+        6.- Lave el brazo de la fístula con agua y jabón antes de su sesión, una vez lavado evite  tener contacto en esa zona.
+    </string>
+    <string name="desarrollo_fisula_parrafo7">
+        7.- Al terminar su sesión retire los apósitos que cubren sus puntos de punción después de 5 a 6 horas.
+    </string>
+    <string name="desarrollo_fisula_parrafo8">
+        8.- En caso de hemorragia comprima unos 15 minutos las zonas de punción con una gasa hasta que pare el sangrado. Si la hemorragia no se detiene asista a urgencias de inmediato.
+    </string>
+    <string name="desarrollo_fisula_parrafo9">
+        9.- En caso de presencia de moretones en la zona de su fístula aplique hielo.
+    </string>
+    <!--//////////////////////////////////////////////////////EXTRAS////////////////////////////////////////////////////////-->
+    <string name="signos_alarma">SIGNOS DE ALARMA</string>
+    <string name="signos_alarma_parrafo1">
+        Preste atención a los siguientes síntomas, de presentar alguno acuda inmediatamente a revisión medica.
+    </string>
+    <string name="signos_alarma_parrafo2">
+        1.- Riesgo de un paro cardíaco por exceso de potasio: Si al consumir en exceso alimentos ricos en potasio usted comienza
+        a sentir debilidad muscular, cansancio, alteración del ritmo cardíaco, hormigueo y pesadez en brazos o piernas.
+    </string>
+    <string name="signos_alarma_parrafo3">
+      2.- Riesgo de paro respiratorio por edema de pulmón: Si al tomar en exceso líquidos comienza a sentir fatiga y dificultad para respirar especialmente al estar acostado.
+    </string>
+    <!--//////////////////////////////////////////////////////EXTRAS////////////////////////////////////////////////////////-->
+    <string name="cuidados_personal">CUIDADO PERSONAL</string>
+    <string name="cuidados_personal_parrafo01">
+        Es de vital importancia que usted se encuentre vigilándose en todo momento, es necesario que en cada valoración médica usted notifique la presencia de las siguientes complicaciones:
+    </string>
+    <string name="cuidados_personal_parrafo02">
+       1.- Edema: Presencia de hinchazón en cara y en extremidades (brazos y piernas) a causa del exceso de líquidos.
+    </string>
+    <string name="cuidados_personal_parrafo03">
+       2.- Hipertensión: Presión arterial muy elevada a causa de exceso de líquidos y alto consumo de sal.
+    </string>
+    <string name="cuidados_personal_parrafo04">
+       3.- Hipotensión: Presión arterial muy baja debido a la extracción elevada de líquido durante la hemodiálisis, puede presentarse mareo, sudoración o alteración de la conciencia.
+    </string>
+    <string name="cuidados_personal_parrafo05">
+       4.- Prurito: Picores o comezón muy intensa debido al alto consumo de alimentos altos en fósforo.
+    </string>
+    <string name="cuidados_personal_parrafo06">
+      5.- Infecciones: Vienen acompañadas por fiebre y escalofrío las causas más comunes son poca higiene personal y falta de cuidado en el catéter.
+    </string>
+    <!--//////////////////////////////////////////////////////EXTRAS////////////////////////////////////////////////////////-->
+    <string name="como_banarse">¿CÓMO DEBO DE BAÑARME?</string>
+    <string name="como_banarse_parrafo1">
+        Al momento de bañarse deberá cuidar su catéter, es decir evitar que se moje y que el chorro del agua caiga directamente en él.
+    </string>
+    <string name="como_banarse_parrafo2">
+       Para lograr un baño sin riesgos realice los siguientes pasos:
+    </string>
+    <string name="como_banarse_parrafo3">
+       1.- Cubra su catéter  completamente con una bolsa de plástico y péguela con tela adhesiva o microporo.
+    </string>
+    <string name="como_banarse_parrafo4">
+       2.- Sobre la bolsa coloque una toalla chica utilizando nuevamente microporo o tela adhesiva para fijarla.
+    </string>
+    <string name="como_banarse_parrafo5">
+       3.- Finalmente cubra la toalla con otra bolsa de plástico y séllela lo mejor posible con tela adhesiva o microporo.
+    </string>
+    <string name="como_banarse_parrafo6">
+       4.- Evite que el chorro del agua caiga directamente sobre la zona del catéter.
+    </string>
+    <!--//////////////////////////////////////////////////////EXTRAS////////////////////////////////////////////////////////-->
+    <string name="higiene_personal">HIGIENE PERSONAL</string>
+    <string name="higiene_personal_parrafo01">
+        1.- Es recomendable el baño diario.
+    </string>
+    <string name="higiene_personal_parrafo02">
+        2.- Cuide su higiene bucal, realice una limpieza con un cepillo suave y pasta de dientes después de cada comida.
+    </string>
+    <string name="higiene_personal_parrafo03">
+        3.- Cuide sus pies, especialmente en pacientes con diabetes es importante cuidar su calzado, procure calzado cómodo que no canse, ni moleste y especialmente no roce, para evitar ampollas u otras  lesiones.
+    </string>
+    <string name="higiene_personal_parrafo04">
+       4.- Es importante que antes de iniciar su sesión de hemodiálisis y en caso de tener fístula realice un lavado de su brazo, así como el lavado de ambas manos.
+    </string>
+    <string name="higiene_personal_parrafo05">
+       5.- Procure tener habitualmente su uñas cortas, siendo cuidadoso de no hacer lesiones en sus dedos al momento de cortarlas.
+    </string>
+    <string name="higiene_personal_parrafo06">
+      6.- Utilice ropa holgada, lávela y cámbiela diariamente para evitar posibles infecciones por sangre y sudor.
+    </string>
+    <string name="higiene_personal_parrafo07">
+      7.- Cuide su piel mediante el uso de jabón neutro y cremas hidratantes libres de petróleo.
+    </string>
+    <string name="higiene_personal_parrafo08">
+      8.- Evite el uso de perfumes y colonias que resequen la piel.
+    </string>
+    <!--//////////////////////////////////////////////////////EXTRAS////////////////////////////////////////////////////////-->
+    <string name="generales">GENERALES</string>
+    <string name="generales_parrafo01">
+        1.- Manténgase activo: En la medida que le sea posible realice alguna actividad o trabajo, esto ayudará a tener un
+        buen estado de ánimo y sentirse productivo.
+    </string>
+    <string name="generales_parrafo02">
+        2.- Ejercicio: Es recomendable que usted realice alguna actividad física regularmente, la caminata o el subir y bajar
+        escalones es un excelente ejercicio para usted, otras opciones son el baile o la bicicleta estática. Evite deportes de
+        contacto o que pongan en riesgo su catéter como la natación.
+    </string>
+    <string name="generales_parrafo03">
+        3.- Buenos hábitos: Evite el consumo de tabaco, si usted no es fumador aléjese de aquellos que fuman cerca de usted.
+    </string>
+    <string name="generales_parrafo04">
+        4.- Cuide su piel: Para lograr esto es recomendable utilizar jabón neutro y cremas humectantes libres de petróleo y
+        aromas. Se recomienda mezclar aceite de almendras en su crema de uso diario, esto ayudar a mantener su piel mejor hidratada.
+    </string>
+</resources>

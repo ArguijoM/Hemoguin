@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#f7f3e9"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            android:contentDescription="@string/nav_header_desc"
+            android:paddingTop="@dimen/nav_header_vertical_spacing"
+            app:srcCompat="@drawable/checklist" />
+
+
+
+        <TextView
+            android:id="@+id/tv_tablas"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:textSize="@dimen/tamano_texto"
+            android:text="@string/menu_tablas"
+            android:gravity="center|start"
+            android:layout_gravity="center_vertical"
+            android:padding="@dimen/padding">
+
+        </TextView>
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/progressBar4"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/side_nav_bar" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <ImageView
+            android:id="@+id/clasificacion"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:padding="@dimen/padding"
+            android:src="@drawable/clasificacion" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+
+        <Button
+            android:id="@+id/btn_clasificacion"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="CLASIFICACION DE COLORES"
+            android:textColor="#000
+"
+            android:textSize="@dimen/tamano_texto_boton" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <ImageView
+            android:id="@+id/lentejas_arroz"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:padding="@dimen/padding"
+            android:src="@drawable/verduras" />
+        <ImageView
+            android:id="@+id/pollo_horno"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:padding="@dimen/padding"
+            android:src="@drawable/semillas" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <Button
+            android:id="@+id/btn_verduras"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="VEGETALES"
+            android:textSize="@dimen/tamano_texto_boton" />
+
+        <Button
+            android:id="@+id/btn_frutas"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="SEMILLAS
+"
+            android:textColor="#2196F3"
+            android:textSize="@dimen/tamano_texto_boton" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <ImageView
+            android:id="@+id/ensalada_arroz"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:padding="@dimen/padding"
+            android:src="@drawable/lacteos" />
+        <ImageView
+            android:id="@+id/filete_res"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:padding="@dimen/padding"
+            android:src="@drawable/cereales" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <Button
+            android:id="@+id/btn_lacteos"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="LACTEOS"
+            android:textSize="@dimen/tamano_texto_boton" />
+
+        <Button
+            android:id="@+id/btn_cereales"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="HARINAS Y CEREALES"
+            android:textColor="#2196F3"
+            android:textSize="@dimen/tamano_texto_boton" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <ImageView
+            android:id="@+id/croquetas_atun"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:padding="@dimen/padding"
+            android:src="@drawable/aceitesygrasas" />
+
+        <ImageView
+            android:id="@+id/champiñones_ajo"
+            android:layout_width="0dp"
+            android:layout_height="109dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:padding="@dimen/padding"
+            android:src="@drawable/azucares" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <Button
+            android:id="@+id/btn_aceitesygrasas"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="aceites y grasas"
+            android:textSize="@dimen/tamano_texto_boton" />
+
+        <Button
+            android:id="@+id/btn_azucares"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="AZUCARES"
+            android:textColor="#2196F3"
+            android:textSize="@dimen/tamano_texto_boton" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <ImageView
+            android:id="@+id/filete_pescado"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:padding="@dimen/padding"
+            android:src="@drawable/legunbres" />
+        <ImageView
+            android:id="@+id/huevo_cham"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:padding="@dimen/padding"
+            android:src="@drawable/alimentos_ani" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <Button
+            android:id="@+id/btn_legumimosas"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="LEGUMBRES"
+            android:textSize="@dimen/tamano_texto_boton" />
+
+        <Button
+            android:id="@+id/btn_alimentos_O_A"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="ALIMENTOS DE ORIGEN ANIMAL"
+            android:textColor="#2196F3"
+            android:textSize="@dimen/tamano_texto_boton" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

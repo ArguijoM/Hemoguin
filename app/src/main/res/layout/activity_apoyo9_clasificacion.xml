@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#f7f3e9"
+        tools:context=".ui.Apoyos.Apoyo9_clasificacion">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/btn_potasio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:justificationMode="inter_word"
+                android:gravity="center"
+                android:textSize="@dimen/tamano_text"
+                android:text="CLASIFICACION"
+                android:background="#acd48c"
+                android:textColor="#FFFF"
+                android:layout_gravity="center_vertical"
+                android:padding="@dimen/padding"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_potasio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/tamano_text_ip"
+                android:text="@string/clasificacion1"
+                android:textColor="#000"
+                android:justificationMode="inter_word"
+                android:gravity="center|start"
+                android:paddingLeft="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_horizontal"
+                android:padding="@dimen/padding"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@drawable/clasificacion"
+            android:gravity="center">
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/lentejas_arroz"
+                android:layout_width="0dp"
+                android:layout_gravity="center_vertical"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:padding="@dimen/padding"
+                android:src="@drawable/lentejas_arroz" />
+            <TextView
+                android:id="@+id/tv_potasio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/tamano_text_ip"
+                android:justificationMode="inter_word"
+                android:text="@string/clasificacion2"
+                android:textColor="#fc0404"
+                android:gravity="center|start"
+                android:paddingLeft="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_horizontal"
+                android:padding="@dimen/padding"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_potasio4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:justificationMode="inter_word"
+                android:gravity="center|start"
+                android:padding="@dimen/padding"
+                android:paddingLeft="50dp"
+                android:text="@string/clasificacion3"
+                android:textColor="#fcc404"
+                android:textSize="@dimen/tamano_text_ip" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_potasio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/tamano_text_ip"
+                android:text="@string/clasificacion1"
+                android:textColor="#0cf424"
+                android:gravity="center|start"
+                android:paddingLeft="50dp"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_horizontal"
+                android:padding="@dimen/padding"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
